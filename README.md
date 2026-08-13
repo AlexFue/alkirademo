@@ -1,5 +1,10 @@
 # Alkira Assessment
 
+## Demo
+
+[`demo.mov`](demo.mov) is a screen recording that demos the project — login,
+MFA, and the read-only vs. read/write Protected screen experiences.
+
 ## Technologies used
 
 - **React 19** + **Vite** — app framework and dev/build tooling

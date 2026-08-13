@@ -27,7 +27,7 @@ export default function SignupPage() {
   } = useForm({
     resolver: zodResolver(signupSchema),
     mode: 'onBlur',
-    defaultValues: { name: '', email: '', password: '', confirmPassword: '' },
+    defaultValues: { email: '', password: '', confirmPassword: '' },
   });
 
   const onSubmit = () => {
