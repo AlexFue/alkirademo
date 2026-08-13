@@ -1,0 +1,13 @@
+/*
+ * Tailwind is imported via its two non-reset layers only (theme + utilities),
+ * deliberately skipping tailwindcss/preflight.css. MUI's <CssBaseline/> is the
+ * single source of CSS normalization in this app; Tailwind here is used only
+ * for layout/spacing utility classes around MUI components, never to restyle
+ * MUI internals. Importing preflight as well would fight CssBaseline's resets.
+ */
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+body {
+  margin: 0;
+}
